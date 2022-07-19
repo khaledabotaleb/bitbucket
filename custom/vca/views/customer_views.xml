@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="vca_customer_action" model="ir.actions.act_window">
+            <field name="name">Customer actions</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="vca_customer_menu" name="Customers" parent="vca_root_menu" action="vca_customer_action"/>
+    </data>
+</odoo>

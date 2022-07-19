@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="vca_certificate_card_report" model="ir.actions.report">
+            <field name="name">Certificate</field>
+            <field name="model">vca.certificate</field>
+            <field name="report_name">vca.vca_certificate_card_template</field>
+            <field name="binding_model_id" ref="model_vca_certificate" />
+        </record>
+    </data>
+</odoo>

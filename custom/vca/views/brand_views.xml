@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record id="vca_brand_action" model="ir.actions.act_window">
+            <field name="name">Certificate Brands</field>
+            <field name="res_model">vca.brand</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="vca_brand_menu" name="Certificate Brands" parent="vca_root_menu" action="vca_brand_action"/>
+    </data>
+</odoo>
