@@ -8,5 +8,6 @@
         "views/customer_views.xml",
         "data/sequence.xml",
         "security/vca_security.xml",
+        "security/ir.model.access.csv"
     ]
 }
